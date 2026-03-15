@@ -1,0 +1,4 @@
+init - inicjowanie kontekstu
+plan - podlglad zmian
+apply - zastosowanie zmian
+destroy - zniszczenie 

@@ -1,0 +1,2 @@
+az group list --output table  - wyswietlenie wszystkich Resource Group
+az group delete --name NAME_OF_Rg --yes --no-wait  - Usuniecie konkretnego RG

@@ -1,0 +1,13 @@
+Inside the [bluetooth]# prompt:
+
+    power on
+    agent on
+    default-agent
+    scan on (Turn on your headphones pairing mode now)
+    Wait for your device to appear, then note the MAC address (e.g., XX:XX:XX:XX:XX:XX).
+    pair XX:XX:XX:XX:XX:XX
+    trust XX:XX:XX:XX:XX:XX (To allow auto-connect later)
+    connect XX:XX:XX:XX:XX:XX
+    quit
+
+devices Trusted - list zaufanych urzadzen

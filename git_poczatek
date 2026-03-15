@@ -1,0 +1,9 @@
+Tworzenie nowego polaczenia Git <-> Github
+1.git init
+2. git add .
+3. git remote add origin https://github.com/devops-capybara/nazwa_repo.git
+4. git branch -M master
+5. git commit -m wiadomosc'
+6. git push -u origin master
+7.     git push --set-upstream origin master
+

@@ -1,0 +1,11 @@
+Skrypty Arch i3
+1 Skrytpy i3blocks
+	~/.config/i3blocks/config
+	~/.config/i3blocks/scripts/
+2 Kofiguracja i3
+	~/.config/i3/config
+3 Kofiguracja uzytkownika
+	~/.bashrc
+4 Wlasne skrypty
+	~/.local/bin/
+gitignore

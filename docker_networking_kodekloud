@@ -1,0 +1,7 @@
+    1  docker network ls
+    2  docker inspect alpine-1
+    3  docker network inspect bridge
+    4  docker run -d --name=alpine-2 --network=none alpine
+    5  docker network create --driver bridge --subnet 182.18.0.0/24 --gateway 182.18.0.1 wp-mysql-network
+    6  docker run -d --name=mysql-db --network=wp-mysql-network -e MYSQL_ROOT_PASSWORD=db_pass123 mysql:5.7
+    7  docker run -d --name=webapp -p 38080:8080 -e DB_Host=mysql-db -e DB_Password=db_pass123 --network=wp-mysql-network --link MySQL:MySQL  kodekloud/simple-webapp-mysql

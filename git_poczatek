@@ -7,3 +7,13 @@ Tworzenie nowego polaczenia Git <-> Github
 6. git push -u origin master
 7.     git push --set-upstream origin master
 
+
+Naprawienie folderu 
+1 usuniecie ukrytego folderu .ti
+	rm -rf nazwa_folderu/.git
+2 Wyczysczenie blednej pamieci podrecznej cache git
+	git rm --cached nazwa_folderu
+3 Ponowne dodanie
+	git add nazwa_folderu
+	git commit -m "naprawa zablokowanego folderu"
+	git push 
